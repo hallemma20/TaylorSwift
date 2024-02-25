@@ -1,0 +1,11 @@
+.page{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.map{
+    text-align: center;
+    padding-top: 200px;
+    top: 150px;
+}

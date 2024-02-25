@@ -1,0 +1,32 @@
+
+
+.shop{
+    margin-top: 80em;
+    width: 100%;
+    min-height: 1000px;
+}
+.card{
+    width: 35em;
+    height: 35em;
+    margin-top: 150px;
+    float: left;
+    background-color: white;
+    margin-left: 32px;
+    border-radius: 10px; 
+ }
+
+ .card-container{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-body {
+    width: 100%;
+}
+.image {
+    position:relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,55 @@
+.carousel-container{
+    height: 950px;
+    position: relative;
+    top: 1000px;
+    
+}
+
+.album-image {
+    width: 549px;
+    height: 779px;
+    background-position: center;
+   
+    right: 50%;
+    transform: translate(110%, 0);
+    top: 30px;
+}
+
+.left-arrow{
+    position:absolute;
+    top:40%;
+    transform: translate(0, 50%);
+    left: 10px;
+    font-size: 60px;
+    z-index: 1;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+ 
+}
+
+.right-arrow{
+    position:absolute;
+    top:40%;
+    transform: translate(0, 50%);
+    right: 10px;
+    font-size: 60px;
+    z-index: 1;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+}
+
+.dots-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+    left: 0;
+    transform: translate(50%, 50%);  
+}
+
+.dots {
+    margin: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(12, 11, 11);
+}

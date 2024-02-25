@@ -1,0 +1,34 @@
+.page{
+    background-color: rgb(82, 82, 82);
+}
+
+.blurb{
+    font-family: 'Oswald', sans-serif;
+}
+
+.textImage{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 180px;
+    width: 1200px;
+    height: 330px;
+}
+
+.newspaperImage{
+    position: absolute;
+    left: 0;
+    padding-top: 100px;
+    width: 100%;
+    height: 900px;
+}
+
+
+.firstscreen{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.cover{
+    top: 2000px;
+}
